@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Landing Page</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="fav-icon" sizes="180x180" href="icon.png"> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/tailwindcss/input.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide.min.css">
+
+    <!-- JS FILES -->
+    <script src="src/js/app.js"></script>
+    <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+
+
+</head>
+
+<body class="max-w-[1500px] mx-auto">
+
+    <!------------------------------
+    # HEADER 
+    -------------------------------->
+    <header class="flex flex-row justify-between items-center">
+        <div class="header-left w-[100px]">
+            <img src="./src/assets/logo.png" alt="" class="w-full">
+        </div>
+        <div class="header-right">
+            <ul class="flex flex-row gap-8 items-center justify-center">
+                <li>
+                    <a href="" class="text-base text-primary-greyLight font-Inter">About Us</a>
+                </li>
+                <li>
+                    <a href="" class="text-base text-primary-greyLight font-Inter">Products</a>
+                </li>
+                <li>
+                    <a href="" class="text-base text-primary-greyLight font-Inter">Careers</a>
+                </li>
+                <button class="primary-button">Contact Us</button>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!------------------------------------------------------------
+    # HERO SECTION 
+    -------------------------------------------------------------->
+        <section class="section hero-section flex flex-row gap-3 items-center justify-between ">
+            <div class="hero-left flex flex-col gap-16 w-[700px]">
+                <h1 class="hero-heading text-5xl text-primary-black2 font-Inter font-bold">Lorem ipsum <span class="text-primary-blue">dolor</span> sit amet yo 👋</h1>
+
+                <div class="hero-cards flex flex-col gap-4">
+
+                    <div class="hero-card flex flex-row gap-6 items-center justify-between">
+                        <img src="./src/assets/pfp1.png" alt="" class="w-16 h-16">
+                        <div class="hero-card-text">
+                            <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem ipsum</h2>
+                            <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                    </div>
+
+                    <div class="hero-card flex flex-row gap-6 items-center justify-between">
+                        <img src="./src/assets/pfp2.png" alt="" class="w-16 h-16">
+                        <div class="hero-card-text">
+                            <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem ipsum</h2>
+                            <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                    </div>
+
+                    <div class="hero-card flex flex-row gap-6 items-center justify-between">
+                        <img src="./src/assets/pfp3.png" alt="" class="w-16 h-16">
+                        <div class="hero-card-text">
+                            <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem ipsum</h2>
+                            <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                    </div>
+
+                    <div class="hero-card flex flex-row gap-6 items-center justify-between">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hero-right my-auto">
+                <img src="./src/assets/Investment.png" alt="Investment" class="relative w-[570px] z-[1] my-auto">
+                <!-- <img src="./src/assets/dots.png" alt="Dots" class="relativew-[570px] z-[2] top-[-100px]"> -->
+            </div>
+        </section>
+
+        <!------------------------------------------------------------
+    # ACHIEVEMENTS SECTION 
+    -------------------------------------------------------------->
+        <section class="section achievements-section flex flex-row gap-[10px] items-center justify-center">
+            <div class="achievement-container flex flex-row gap-[10px] p-6 justify-center">
+                <div class="achievement p-6 flex flex-row gap-6 items-center justify-center">
+                    <img src="./src/assets/lock.png" alt="" class="w-16 h-16">
+                    <div class="achievement-text">
+                        <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem, ipsum dolor.</h2>
+                        <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+                <div class="achievement p-6 flex flex-row gap-6 items-center justify-center">
+                    <img src="./src/assets/barChart.png" alt="" class="w-16 h-16">
+                    <div class="achievement-text">
+                        <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem, ipsum dolor.</h2>
+                        <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+                <div class="achievement p-6 flex flex-row gap-6 items-center justify-center">
+                    <img src="./src/assets/cup.png" alt="" class="w-16 h-16">
+                    <div class="achievement-text">
+                        <h2 class="text-base font-medium text-primary-black2 mb-[5px]">Lorem, ipsum dolor.</h2>
+                        <p class="text-base font-medium text-primary-greyLight">Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------------
+    # CLIENTS SECTION 
+    -------------------------------------------------------------->
+        <section class="section clients splide max-w-[1200px] mx-auto flex flex-col gap-8 max-h-[550px]"
+            id="card-carousel">
+            <div class="clients-heading flex flex-col items-center justify-center gap-4 mb-6 text-center">
+                <img src="./src/assets/trusted-by.png" alt="" class="mx-auto">
+                <p class="w-[440px] text-center">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Vitae, in tristique senectus
+                    dui pharetra
+                    sit.</p>
+            </div>
+
+            <!-- Clients Slider -->
+            <div class="splide__track">
+                <ul class="splide__list  flex flex-row items-center">
+                    <li class="splide__slide ">
+                        <img src="./src/assets/microsoft.png" alt="" class="mx-auto">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./src/assets/twitter.png" alt="" class="mx-auto">
+                    </li>
+                    <li class="splide__slide ">
+                        <img src="./src/assets/cocacola.png" alt="" class="mx-auto max-h-[90px]">
+                    </li>
+                </ul>
+            </div>
+            <!-- Splide Arrows -->
+            <div class="splide__arrows mt-[8.5rem] mb-0 p-0">
+                <button class="splide__arrow splide__arrow--prev">
+                    <img src="./src/assets/arrow-left.svg" alt="">
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    <img src="./src/assets/arrow-right.svg" alt="">
+                </button>
+            </div>
+
+        </section>
+
+        <!------------------------------------------------------------
+    # REGISTER FORM SECTION 
+    -------------------------------------------------------------->
+
+        <section class="section pt-0 flex flex-row items-center justify-between gap-8">
+            <div class="register-left">
+                <img src="./src/assets/register-img.png" alt="">
+            </div>
+            <div
+                class="register-right flex flex-col items-start bg-white p-12 max-w-[575px] max-h-max gap-12 shadow-registerFormShadow">
+                <div class="flex flex-col gap-6">
+                    <h3 class="text-4xl text-primary-black2 font-bold ">Register interest</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui
+                        pharetra sit.</p>
+                </div>
+
+                <form class="flex flex-col flex-start gap-6 w-full">
+                    <div class="contactForm-form-input flex flex-col">
+                        <h3 class="mb-2">Name<span class="text-primary-red"> *</span></h3>
+                        <input class="p-4 bg-[#F9FAFF] border-[#DEE6FF] border rounded-[5px]" type="text"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="contactForm-form-input flex flex-col">
+                        <h3 class="mb-2">Company<span class="text-primary-red"> *</span></h3>
+                        <input class="p-4 bg-[#F9FAFF] border-[#DEE6FF] border rounded-[5px]" type="text"
+                            placeholder="Enter your company name">
+                    </div>
+                    <div class="contactForm-form-input flex flex-col">
+                        <h3 class="mb-2">Email Address<span class="text-primary-red"> *</span></h3>
+                        <input class="p-4 bg-[#F9FAFF] border-[#DEE6FF] border rounded-[5px]" type="email"
+                            placeholder="Enter your email address">
+                    </div>
+                </form>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </section>
+
+
+
+        <!------------------------------------------------------------
+    # FOOTER SECTION 
+    -------------------------------------------------------------->
+
+        <footer class="flex flex-row justify-between items-center">
+            <div class="footer-left w-[100px]">
+                <img src="./src/assets/logo.png" alt="" class="w-full">
+            </div>
+            <div class="footer-right">
+                <ul class="flex flex-row gap-8 items-center justify-center">
+                    <li>
+                        <a href="" class="text-base text-primary-greyLight font-Inter">About Us</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-base text-primary-greyLight font-Inter">Products</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-base text-primary-greyLight font-Inter">Careers</a>
+                    </li>
+                    <button class="primary-button">Contact Us</button>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
