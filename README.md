@@ -8,6 +8,7 @@ I got this cool landing page design from [ui4free](https://ui4free.com/). This l
 
 ### 📍 Dependencies
 * Tailwind CSS - [Click Here](https://tailwindcss.com/docs/installation) to view Tailwind CSS Guide.
+* Splide JS - [Click Here](https://splidejs.com/guides/getting-started/) to view Splide JS Guide.
 
 ### 📍 Installation & Setup Instructions
 
@@ -15,6 +16,14 @@ I got this cool landing page design from [ui4free](https://ui4free.com/). This l
 
     $ git clone https://github.com/Saimcode/cool-landing-page.git
     $ cd cool-landing-page
+    
+#### 2. Install `node_modules` and other dependencies:
+
+    $ npm install @splidejs/splide
+    $ npm install -D tailwindcss
+    $ npx tailwindcss init
+    
+#### 3. Start your live server
     
 ### 📍 Using the application
 
