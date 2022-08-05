@@ -16,8 +16,6 @@ I got this cool landing page design from [ui4free](https://ui4free.com/). This l
     $ git clone https://github.com/Saimcode/cool-landing-page.git
     $ cd cool-landing-page
     
-#### 2. View Tailwind CSS Guide [Here](https://tailwindcss.com/docs/installation)
-
 ### 📍 Using the application
 
 It's a web-based program so you would need the following:
